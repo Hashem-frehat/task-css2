@@ -1,0 +1,19 @@
+.container .child-container div{
+    width: 60px;
+    height: 60px;
+    background-color :green;
+  margin: 5px;
+ float: left;
+
+}
+
+.container {
+    
+    width: 670px
+}
+
+
+.container .child-container:nth-child(even) div{
+    background-color: blue;
+}
+
